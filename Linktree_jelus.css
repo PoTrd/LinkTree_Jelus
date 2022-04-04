@@ -1,0 +1,79 @@
+    @font-face { /* Importe la police */
+    font-family: "Gonzi Black";
+    src: url(Polices/Police_gonzi/Gonzi_Black.otf);
+}
+
+@font-face {
+    font-family: "Black Chocolate";
+    src: url(Polices/Black\ Chocolate.ttf)
+}
+
+#block_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+
+body
+{
+    overflow-y: hidden; /* bloque le scroll vertical et horizontal */
+    overflow-x: hidden;
+    text-align: center;
+    background-image: url("Fonds/Fond_1.png");
+    color: white;
+    font-size : 1em;
+    font-family: "Gonzi Black";
+}
+
+.lien /* modifications du bloc : liens */
+{
+    color: white;
+    border: solid white 2px;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 15px 10px 15px 10px; /* marges intérieures */
+}
+
+a
+{
+    color: white;
+    text-decoration: none; /* éviter que les noms soient soulignés */
+}
+
+h1 /* modifications Jelus Music */
+{
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-family: "Black Chocolate";
+    font-size: 3em;
+    position: relative;
+    top: -15px;
+}
+
+ul /* enleve les puces de la liste */
+{
+    list-style: none;
+}
+
+nav /* navigation gauche */
+{
+    text-align: left;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    padding-right: 35px;
+    padding-bottom: 100%;
+}
+
+li /* écart entre les liens de navigation */
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+figure
+{
+    position: relative;
+    top : -10px;
+}
