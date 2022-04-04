@@ -10,13 +10,7 @@
 <body>
     <div id="block_page">
         <figure><img src="pp_jelus/pp_jelus.png" alt="Photo de profil de Jelus"></figure>
-        <nav>
-            <ul>
-                <li><a href="#">Singles</a></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="LinkTree Jelus.html">Liens de <br />distribution</a></li>
-            </ul>
-        </nav>
+        <?php include_once("menu.php") ?> <!-- On inclu la page menu pour la navigation entre les pages -->
         <h1>Jelus Music</h1>
         <div>
             <div class="lien"><a href="https://open.spotify.com/artist/0kwv85zWzzsevmyyCMPlPC"
@@ -29,6 +23,7 @@
             </div>
             <div class="lien"><a href="https://www.instagram.com/jules_trd/" target="blank">Instagram</a></div>
         </div>
+        <?php include_once ("contact.php") ?>
     </div>
 </body>
 
